@@ -31,7 +31,7 @@ function Menu() {
     <>
       <section className="about_us">
         <div className="container">
-          <div className="row">
+          <div className="row" data-aos="zoom-out-up" data-aos-duration="1000">
             <div className="col-lg-12 pt-3 text-center ">
               <h1>Menu's</h1>
               <Menu_Filter_btn

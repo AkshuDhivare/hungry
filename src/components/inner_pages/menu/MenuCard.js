@@ -6,7 +6,12 @@ function MenuCard({ menuData }) {
       {menuData.map((element, index) => {
         const { img, name, category, price, desc } = element;
         return (
-          <div className="col-lg-3 my-3 text-start" key={index}>
+          <div
+            className="col-lg-3 my-3 text-start"
+            key={index}
+            data-aos="zoom-in-up"
+            data-aos-duration="800"
+          >
             <div class="card p-3">
               <img class="card-img-top img-fluid " src={img} alt={name} />
               <div class="card-body">

@@ -7,10 +7,14 @@ function About_us() {
       <section className="about_us">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 py-5">
+            <div
+              className="col-lg-12 py-5"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
               <h1>Welcome to Hungry !!!</h1>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 where your cravings meet culinary excellence. We are more than
                 just a restaurant; we are an experience crafted to tantalize
                 your taste buds and leave you craving for more. At Hungry, we
@@ -20,10 +24,12 @@ function About_us() {
               </p>
               <br />
               <h3>
-                <strong>Our Story</strong>
+                <strong data-aos="zoom-in-up" data-aos-duration="1000">
+                  Our Story
+                </strong>
               </h3>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 Hungry was founded with a passion for exceptional food and a
                 desire to create a warm and inviting dining atmosphere. Our
                 journey began with a simple idea: to serve delicious, freshly
@@ -34,10 +40,12 @@ function About_us() {
               </p>
               <br />
               <h3>
-                <strong>Our Cuisine</strong>
+                <strong data-aos="zoom-in-up" data-aos-duration="1000">
+                  Our Cuisine
+                </strong>
               </h3>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 Our menu is a culinary journey through a variety of cuisines,
                 carefully curated to cater to diverse palates. From sizzling
                 steaks to savory pasta, from spicy curries to mouthwatering
@@ -49,10 +57,12 @@ function About_us() {
               </p>
               <br />
               <h3>
-                <strong>Our Team</strong>
+                <strong data-aos="zoom-in-up" data-aos-duration="1000">
+                  Our Team
+                </strong>
               </h3>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 Behind every delicious dish at Hungry is a team of passionate
                 individuals dedicated to delivering excellence. From our
                 talented chefs who infuse creativity into every recipe, to our
@@ -64,12 +74,21 @@ function About_us() {
               </p>
               <br />
               <h3>
-                <strong>Our Values</strong>
+                <strong data-aos="zoom-in-up" data-aos-duration="1000">
+                  Our Values
+                </strong>
               </h3>
               <br />
-              <p>At Hungry, we value:</p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
+                At Hungry, we value:
+              </p>
               <br />
-              <ol type="1" className="bg-white py-4 px-2">
+              <ol
+                type="1"
+                className="bg-white py-4 px-2"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <li className="py-1">
                   <strong className="px-2">Quality :</strong> We source the
                   finest ingredients to create dishes that are consistently
@@ -94,10 +113,12 @@ function About_us() {
 
               <br />
               <h3>
-                <strong>Your Experience</strong>
+                <strong data-aos="zoom-in-up" data-aos-duration="1000">
+                  Your Experience
+                </strong>
               </h3>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 Your satisfaction is our top priority. Whether you're
                 celebrating a special occasion, enjoying a casual meal with
                 friends, or simply indulging your taste buds, we want every
@@ -106,7 +127,7 @@ function About_us() {
                 experience that keeps you coming back for more.
               </p>
               <br />
-              <p>
+              <p data-aos="zoom-in-up" data-aos-duration="1000">
                 <strong>
                   Thank you for choosing Hungry as your dining destination. We
                   look forward to serving you and making every meal a delightful

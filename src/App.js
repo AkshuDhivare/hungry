@@ -6,6 +6,10 @@ import About_us from "./components/inner_pages/About_us";
 import Menus from "./components/inner_pages/Menus";
 import Contact_us from "./components/inner_pages/Contact_us";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (
