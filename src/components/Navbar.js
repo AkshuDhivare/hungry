@@ -35,7 +35,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item px-3">
-                <Link className="nav-link " to="resturants">
+                <Link className="nav-link " to="menu">
                   Menus
                 </Link>
               </li>

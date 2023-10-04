@@ -11,10 +11,10 @@ function Footer() {
       <section className="footer py-3">
         <div className="container">
           <div className="row  justify-content-evenly ">
-            <div className="col-lg-4">
-              <h6>&copy; 2023 Hungry, All right Reserved.</h6>
+            <div className="col-lg-4 my-2 text-center ">
+              <h6>&copy; 2023 Hungry, Develop by Akshay Dhivare.</h6>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3  my-2">
               <ul className="d-flex mb-0">
                 <li className="px-3">
                   <GitHubIcon style={{ cursor: "pointer" }} />
@@ -27,7 +27,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5  my-2">
               <ul className="d-flex mb-0">
                 <li className="px-3">
                   <Link className="footer_link" to="/">
@@ -40,7 +40,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="px-3">
-                  <Link className="footer_link" to="restaurant">
+                  <Link className="footer_link" to="menu">
                     Menus
                   </Link>
                 </li>

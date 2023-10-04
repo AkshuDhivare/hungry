@@ -11,42 +11,42 @@ function Contact_us() {
       <section className="contact_us_section">
         <div className="container ">
           <div className="row py-5 justify-content-evenly">
-            <div className="col-lg-3">
+            <div className="col-lg-3 my-3 ">
               <div className="contact_box ">
                 <AttachEmailIcon fontSize="large" />
-                <h5 className="py-2">
+                <h5 className="py-4">
                   <strong>Email</strong>
                 </h5>
-                <p>
+                <h5>
                   <strong> Demo@gmail.com</strong>
-                </p>
+                </h5>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 my-3 ">
               <div className="contact_box">
                 <PlaceIcon fontSize="large" />
-                <h5 className="py-2">
+                <h5 className="py-4">
                   <strong>Location</strong>
                 </h5>
-                <p>
-                  <strong> Mumbai</strong>
-                </p>
+                <h5>
+                  <strong> Mumbai, India.</strong>
+                </h5>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 my-3 ">
               <div className="contact_box">
                 <CallIcon fontSize="large" />
-                <h5 className="py-2">
+                <h5 className="py-4">
                   <strong>Contact No.</strong>
                 </h5>
-                <p>
+                <h5>
                   <strong> +91 - 1234567890</strong>
-                </p>
+                </h5>
               </div>
             </div>
           </div>
           <div className="row py-5 justify-content-evenly ">
-            <div className="col-lg-5">
+            <div className="col-lg-5 my-3">
               <div className="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.67292430808!2d72.71637054316062!3d19.082502007375787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1696362309722!5m2!1sen!2sin"
@@ -59,7 +59,7 @@ function Contact_us() {
                 ></iframe>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 my-3">
               <div className="contact_form py-5 px-4 text-center ">
                 <h3 className="pb-5">Connect With Us </h3>
                 <form class="form-floating">

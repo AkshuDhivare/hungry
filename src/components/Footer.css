@@ -17,3 +17,8 @@ div li,div h6{
 .footer_link:hover{
     color: #136F42;
 }
+@media screen and (max-width: "420px") {
+    a.footer_link {
+        font-size: 15px;
+    }  
+}

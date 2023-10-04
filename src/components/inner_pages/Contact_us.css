@@ -1,12 +1,15 @@
 .contact_us_section{
-    background: linear-gradient(rgba(5,150,0,.15),hsla(0,0%,100%,.6));
+    /* background: linear-gradient(rgba(5,150,0,.15),hsla(0,0%,100%,.6));
+     */
+    background-color: #F8FCF8;
+
 }
 .contact_box{
     /* border: 0.5px solid #136F42; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 0 5px #136F42;
     border-radius: 10%;
     display: flex;

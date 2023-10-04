@@ -13,7 +13,7 @@ function Home() {
             <br />
             <h4>Discover the best food and drinks near you - Order Online!</h4>
             <br />
-            <Link className="btn btn-success" to="resturants">
+            <Link className="btn btn-success" to="menu">
               <h5>Explore Menu.</h5>
             </Link>
           </div>

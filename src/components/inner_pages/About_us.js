@@ -69,28 +69,29 @@ function About_us() {
               <br />
               <p>At Hungry, we value:</p>
               <br />
-              <ol>
-                <li>
-                  <strong className="px-2">Quality:</strong> We source the
+              <ol type="1" className="bg-white py-4 px-2">
+                <li className="py-1">
+                  <strong className="px-2">Quality :</strong> We source the
                   finest ingredients to create dishes that are consistently
                   delicious.
                 </li>
-                <li>
-                  <strong className="px-2">Hospitality:</strong> We strive to
+                <li className="py-1">
+                  <strong className="px-2">Hospitality :</strong> We strive to
                   provide warm, welcoming, and attentive service to make you
                   feel at home.
                 </li>
-                <li>
-                  <strong className="px-2">Innovation:</strong> We embrace
+                <li className="py-1">
+                  <strong className="px-2">Innovation :</strong> We embrace
                   creativity and constantly explore new culinary horizons to
                   surprise and delight our guests.
                 </li>
-                <li>
-                  <strong className="px-2">Community:</strong> We believe in
+                <li className="py-1">
+                  <strong className="px-2">Community :</strong> We believe in
                   giving back to the community that has supported us, and we
                   actively engage in charitable initiatives.
                 </li>
               </ol>
+
               <br />
               <h3>
                 <strong>Your Experience</strong>
