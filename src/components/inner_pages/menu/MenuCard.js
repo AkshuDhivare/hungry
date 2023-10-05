@@ -1,4 +1,5 @@
 import React from "react";
+import ReactStars from "react-stars";
 
 function MenuCard({ menuData }) {
   return (
@@ -15,13 +16,18 @@ function MenuCard({ menuData }) {
             <div class="card p-3">
               <img class="img-fluid W-25" src={image} alt={name} />
               <div class="card-body">
-                <h5 class="card-title">{name}</h5>
-                <p class="card-text">{desc}</p>
-                <p class="card-text">{category}</p>
-                <p class="card-text">{price}</p>
-                <a href="#" class="btn btn-primary">
+                <h5 class=" card-title">
+                  <strong>{name}</strong>
+                </h5>
+                <h6 class=" card-text">{desc}</h6>
+                <h6 class="py-2 card-text">{category}</h6>
+                <h6 class=" card-text">{price}</h6>
+                <h6>
+                  <ReactStars size={30} half={true} value={5} edit={true} />
+                </h6>
+                {/* <a href="#" class="btn btn-primary">
                   Go somewhere
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
