@@ -13,12 +13,14 @@ function Home() {
             data-aos="zoom-in-right"
             data-aos-duration="1500"
           >
-            <h1>Satisfy your cravings.</h1>
+            <h1>Feast on Unforgettable Flavors.</h1>
             <br />
-            <h4>Discover the best food and drinks near you - Order Online!</h4>
+            <h4>
+              Experience a World of Delectable Dishes and Exquisite Beverages
+            </h4>
             <br />
             <Link className="btn btn-success" to="menu">
-              <h5>Explore Menu.</h5>
+              <h5 className="pt-2">EXPLORE MENU</h5>
             </Link>
           </div>
           <div

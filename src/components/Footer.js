@@ -17,13 +17,22 @@ function Footer() {
             <div className="col-lg-3  my-2">
               <ul className="d-flex mb-0">
                 <li className="px-3">
-                  <GitHubIcon style={{ cursor: "pointer" }} />
+                  <a href="https://github.com/AkshuDhivare" target="_blank">
+                    <GitHubIcon style={{ cursor: "pointer" }} />
+                  </a>
                 </li>
                 <li className="px-3">
-                  <LinkedInIcon style={{ cursor: "pointer" }} />
+                  <a
+                    href="https://www.linkedin.com/in/akshay-dhivare-05ab87235/"
+                    target="_blank"
+                  >
+                    <LinkedInIcon style={{ cursor: "pointer" }} />
+                  </a>
                 </li>
                 <li className="px-3">
-                  <PublicIcon style={{ cursor: "pointer" }} />
+                  <a href="https://adwebinfotech.com/" target="_blank">
+                    <PublicIcon style={{ cursor: "pointer" }} />
+                  </a>
                 </li>
               </ul>
             </div>
