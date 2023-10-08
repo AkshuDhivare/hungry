@@ -30,7 +30,10 @@ function Footer() {
                   </a>
                 </li>
                 <li className="px-3">
-                  <a href="https://adwebinfotech.com/" target="_blank">
+                  <a
+                    href="https://personal-portfolioo.onrender.com/"
+                    target="_blank"
+                  >
                     <PublicIcon style={{ cursor: "pointer" }} />
                   </a>
                 </li>
