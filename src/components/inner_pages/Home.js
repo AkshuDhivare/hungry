@@ -9,7 +9,7 @@ function Home() {
       <div className="container">
         <div className="row py-5">
           <div
-            className="col-lg-6 py-5"
+            className="col-lg-6 home-right py-5"
             data-aos="zoom-in-right"
             data-aos-duration="1500"
           >
@@ -24,7 +24,7 @@ function Home() {
             </Link>
           </div>
           <div
-            className="col-lg-6"
+            className="col-lg-6 home-left"
             data-aos="zoom-in-left"
             data-aos-duration="1500"
           >

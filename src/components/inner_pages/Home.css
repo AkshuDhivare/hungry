@@ -10,4 +10,11 @@ h4{
     h1 {
         font-size: 38px;
     }
+    .home-right{
+        order: 2;
+
+    }
+    .home-left{
+        order: 1;
+    }
 }
